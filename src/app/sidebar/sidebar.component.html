@@ -65,12 +65,20 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <a href="/mahasiswa" class="nav-link {{ moduleName =='mahasiswa' ? 'active' : '' }}">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Widgets
+                Mahasiswa
                 <span class="right badge badge-danger">New</span>
               </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/mahasiswa" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+            <p>
+              Mahahsiswa (non-router)
+            </p>
             </a>
           </li>
           <li class="nav-item">
@@ -661,11 +669,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/mahasiswa" class="nav-link {{ moduleName =='mahasiswa' ? 'active' : '' }}">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Mahasiswa
-              </p>
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-circle text-info"></i>
+              <p>Informational</p>
             </a>
           </li>
         </ul>
